@@ -3,7 +3,7 @@ Visitors to the website experience a security issue when loading the main webpag
 
 
 
-###Review the scenario below. Then complete the step-by-step instructions.
+### Review the scenario below. Then complete the step-by-step instructions.
 
 You are a cybersecurity analyst for yummyrecipesforme.com, a website that sells recipes and cookbooks. A former employee has decided to lure users to a fake website with malware. 
 
@@ -17,19 +17,19 @@ To address the incident, you create a sandbox environment to observe the suspici
 
 The logs show the following process:
 
-The browser initiates a DNS request: It requests the IP address of the yummyrecipesforme.com URL from the DNS server.
+- The browser initiates a DNS request: It requests the IP address of the yummyrecipesforme.com URL from the DNS server.
 
-The DNS replies with the correct IP address. 
+- The DNS replies with the correct IP address. 
 
-The browser initiates an HTTP request: It requests the yummyrecipesforme.com webpage using the IP address sent by the DNS server.
+- The browser initiates an HTTP request: It requests the yummyrecipesforme.com webpage using the IP address sent by the DNS server.
 
-The browser initiates the download of the malware.
+- The browser initiates the download of the malware.
 
-The browser initiates a DNS request for greatrecipesforme.com.
+- The browser initiates a DNS request for greatrecipesforme.com.
 
-The DNS server responds with the IP address for greatrecipesforme.com.
+- The DNS server responds with the IP address for greatrecipesforme.com.
 
-The browser initiates an HTTP request to the IP address for greatrecipesforme.com.
+- The browser initiates an HTTP request to the IP address for greatrecipesforme.com.
 
 A senior analyst confirms that the website was compromised. The analyst checks the source code for the website. They notice that javascript code had been added to prompt website visitors to download an executable file. Analysis of the downloaded file found a script that redirects the visitors’ browsers from yummyrecipesforme.com to greatrecipesforme.com. 
 
