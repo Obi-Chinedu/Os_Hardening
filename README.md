@@ -5,7 +5,7 @@
 
 ### Review the scenario below. Then complete the step-by-step instructions.
 
-You are a cybersecurity analyst for yummyrecipesforme.com, a website that sells recipes and cookbooks. A former employee has decided to lure users to a fake website with malware. 
+Am a cybersecurity analyst for yummyrecipesforme.com, a website that sells recipes and cookbooks. A former employee has decided to lure users to a fake website with malware. 
 
 The baker executed a brute force attack to gain access to the web host. They repeatedly entered several known default passwords for the administrative account until they correctly guessed the right one. After they obtained the login credentials, they were able to access the admin panel and change the website’s source code. 
 
@@ -13,11 +13,11 @@ They embedded a javascript function in the source code that prompted visitors to
 
 Several hours after the attack, multiple customers emailed yummyrecipesforme’s helpdesk. They complained that the company’s website had prompted them to download a file to access free recipes. The customers claimed that, after running the file, the address of the website changed and their personal computers began running more slowly. 
 
-In response to this incident, the website owner tries to log in to the admin panel but is unable to, so they reach out to the website hosting provider. You and other cybersecurity analysts are tasked with investigating this security event.
+In response to this incident, the website owner tries to log in to the admin panel but is unable to, so they reach out to the website hosting provider. I and other cybersecurity analysts are tasked with investigating this security event.
 
-To address the incident, you create a sandbox environment to observe the suspicious website behavior. You run the network protocol analyzer tcpdump, then type in the URL for the website, yummyrecipesforme.com. As soon as the website loads, you are prompted to download an executable file to update your browser. 
+To address the incident, you create a sandbox environment to observe the suspicious website behavior. I run the network protocol analyzer tcpdump, then type in the URL for the website, yummyrecipesforme.com. As soon as the website loads, you are prompted to download an executable file to update your browser. 
 
-You accept the download and allow the file to run. You then observe that your browser redirects you to a different URL, greatrecipesforme.com, which contains the malware.  
+I accept the download and allow the file to run. I then observe that your browser redirects you to a different URL, greatrecipesforme.com, which contains the malware.  
 
 The logs show the following process:
 
