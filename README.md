@@ -35,8 +35,8 @@ The logs show the following process:
 
 - The browser initiates an HTTP request to the IP address for greatrecipesforme.com.
 
-I confirms that the website was compromised. The analyst checks the source code for the website. I notice that javascript code had been added to prompt website visitors to download an executable file. Analysis of the downloaded file found a script that redirects the visitors’ browsers from yummyrecipesforme.com to greatrecipesforme.com. 
+I confirms that the website was compromised. I checks the source code for the website. I notice that javascript code had been added to prompt website visitors to download an executable file. Analysis of the downloaded file found a script that redirects the visitors’ browsers from yummyrecipesforme.com to greatrecipesforme.com. 
 
 The cybersecurity team reports that the web server was impacted by a brute force attack. The disgruntled baker was able to guess the password easily because the admin password was still set to the default password. Additionally, there were no controls in place to prevent a brute force attack. 
 
-Your job is to document the incident in detail, including identifying the network protocols used to establish the connection between the user and the website.  You should also recommend a security action to take to prevent brute force attacks in the future.
+My job is to document the incident in detail, including identifying the network protocols used to establish the connection between the user and the website.  I also recommend a security action to take to prevent brute force attacks in the future.
